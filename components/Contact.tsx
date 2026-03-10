@@ -20,9 +20,16 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setStatus('loading');
 
-    const YOUR_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_id_placeholder'; 
-    const YOUR_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_id_placeholder';
-    const YOUR_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'public_key_placeholder';
+    const YOUR_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID; 
+    const YOUR_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const YOUR_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    if (!YOUR_SERVICE_ID || !YOUR_TEMPLATE_ID || !YOUR_PUBLIC_KEY) {
+      console.error("Missing EmailJS environment variables");
+      alert("Błąd konfiguracji formularza. Skontaktuj się z nami telefonicznie.");
+      setStatus('error');
+      return;
+    }
 
     if (form.current) {
       emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)
@@ -35,12 +42,7 @@ const Contact: React.FC = () => {
             }, 5000);
         }, (error) => {
             console.log(error.text);
-            if (YOUR_SERVICE_ID === 'service_id_placeholder') {
-              alert("To jest wersja demo. Aby formularz działał, musisz uzupełnić klucze API EmailJS w pliku Contact.tsx.");
-              setStatus('error');
-            } else {
-              setStatus('error');
-            }
+            setStatus('error');
         });
     }
   };
