@@ -3,6 +3,7 @@ import React from 'react';
 import { Users, Waves, Award } from 'lucide-react';
 import RevealOnScroll from './RevealOnScroll';
 import { useLanguage } from '../contexts/LanguageContext';
+import AnimatedCounter from './AnimatedCounter';
 
 const Stats: React.FC = () => {
   const { t } = useLanguage();
@@ -38,7 +39,7 @@ const Stats: React.FC = () => {
                 <stat.icon size={32} strokeWidth={1.5} />
               </div>
               <div className="text-4xl md:text-5xl font-heading font-bold mb-2 tracking-tight">
-                {stat.value}
+                <AnimatedCounter value={stat.value} />
               </div>
               <div className="text-primary-100 font-medium text-lg">
                 {stat.label}

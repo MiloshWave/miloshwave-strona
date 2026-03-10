@@ -20,10 +20,9 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setStatus('loading');
 
-    // TUTAJ PODMIEŃ NA SWOJE DANE Z EMAILJS (https://www.emailjs.com/)
-    const YOUR_SERVICE_ID = 'service_id_placeholder'; 
-    const YOUR_TEMPLATE_ID = 'template_id_placeholder';
-    const YOUR_PUBLIC_KEY = 'public_key_placeholder';
+    const YOUR_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_id_placeholder'; 
+    const YOUR_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_id_placeholder';
+    const YOUR_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'public_key_placeholder';
 
     if (form.current) {
       emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)
