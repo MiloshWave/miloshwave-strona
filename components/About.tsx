@@ -14,12 +14,12 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           <RevealOnScroll direction="left" className="relative">
-            {/* Changed aspect ratio to 3:4 for vertical/standing photo and added object-top */}
-            <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl bg-slate-100 relative z-10 group">
+            {/* Changed aspect ratio to 4:5 for better full-body fit and changed object-top to object-center */}
+            <div className="aspect-[4/5] md:aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl bg-slate-100 relative z-10 group">
               <EditableImage 
                 imageKey="instructorPortrait"
                 alt="Instruktor pływania" 
-                className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
               
               {/* Optional overlay gradient for better text readability if needed, currently subtle */}
