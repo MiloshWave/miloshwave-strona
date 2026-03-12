@@ -15,11 +15,11 @@ export const content = {
     },
     hero: {
       locationBadge: "Neustadt an der Weinstraße",
-      titleMain: "Pływaj pewnie",
-      titleHighlight: "po polsku.",
-      description: "Profesjonalne lekcje pływania dla dzieci i dorosłych. Przełam bariery językowej i poczuj się swobodnie w wodzie pod okiem polskiego instruktora.",
+      titleMain: "Profesjonalna nauka pływania",
+      titleHighlight: "bez stresu i bariery językowej.",
+      description: "Jako Magister WF z 10-letnim stażem pomagam dzieciom i dorosłym poczuć się pewnie w wodzie. Indywidualne podejście w Twoim języku – w Neustadt i okolicach.",
       viewOffer: "Zobacz ofertę",
-      callNow: "Zadzwoń teraz",
+      callNow: "Umów bezpłatną rozmowę (10 min)",
       contact: "Skontaktuj się",
       meetInstructor: "Poznaj trenera",
       availableDates: "Dostępne terminy",
@@ -35,10 +35,10 @@ export const content = {
       languageBadgeValue: "Polski & Niemiecki",
       subtitle: "Twój instruktor",
       title: "Pasja do pływania,\nprofesjonalne podejście.",
-      p1: "Cześć! Jestem doświadczonym instruktorem pływania działającym w Neustadt an der Weinstraße. Moim celem jest pomoc Polakom mieszkającym w Niemczech w nauce pływania bez stresu związanego z barierą językową.",
-      p2: "Wiem, jak trudne może być zrozumienie technicznych uwag w obcym języku. Dlatego prowadzę zajęcia po polsku, zapewniając pełen komfort i zrozumienie na każdym etapie nauki – od oswajania z wodą po zaawansowany trening techniczny.",
-      p3: "Moja filozofia nauczania skupia się na budowaniu pewności siebie, co sprawia, że nauka staje się przyjemnością, a nie obowiązkiem. Dzięki indywidualnemu podejściu pomagam uczniom odkryć radość z pływania i poczuć się bezpiecznie w wodzie.",
-      p4: "Dążę do tego, aby każda lekcja była nie tylko treningiem, ale też czasem relaksu i dobrej zabawy. Poprzez pozytywne wzmocnienie buduję wiarę we własne siły, co pozwala pokonać wszelkie obawy związane z wodą.",
+      p1: "Cześć, nazywam się Miłosz. Jestem Magistrem Wychowania Fizycznego (AWF Kraków) i od ponad dekady uczę pływania. Moje doświadczenie zdobywałem m.in. w szkołach międzynarodowych, co nauczyło mnie, że każde dziecko i dorosły potrzebuje innego klucza do sukcesu.",
+      p2: "Na moich lekcjach nie ma krzyku ani presji – jest za to pasja, biomechanika i zrozumienie Twoich potrzeb. Prowadzę Cię za rękę od pierwszego zanurzenia do pełnej swobody w wodzie.",
+      p3: "",
+      p4: "",
       card1Title: "Certyfikowany Trener",
       card1Desc: "Licencja ratownika i instruktora pływania uznawana w UE.",
       card2Title: "Bez Stresu",
@@ -180,11 +180,11 @@ export const content = {
     },
     testimonials: {
       subtitle: "Opinie",
-      title: "Zaufali nam Polacy w regionie",
+      title: "Co mówią rodzice i moi uczniowie?",
       items: [
-        { name: 'Anna Nowak', location: 'Mieszka w Neustadt', text: 'Dzięki Panu Piotrowi mój syn przestał bać się wody. Lekcje po polsku to był strzał w dziesiątkę, bo mały wszystko rozumie i chętnie ćwiczy. Polecam!' },
-        { name: 'Marek Kowalski', location: 'Mieszka w Landau', text: 'Jako dorosły wstydziłem się uczyć pływać, ale tutaj atmosfera jest super. Pełen profesjonalizm i zero stresu. W końcu nauczyłem się kraula!' },
-        { name: 'Katarzyna Wiśniewska', location: 'Mieszka w Haßloch', text: 'Super podejście do dzieci. Instruktor ma anielską cierpliwość. Bardzo się cieszę, że znaleźliśmy polskiego trenera w okolicy.' }
+        { name: 'Marta', location: 'mama 5-letniego Antosia', text: 'Długo szukaliśmy instruktora, który mówi po polsku i ma cierpliwość do dzieci. Pan Miłosz to magik! Antoś, który panicznie bał się wody, po trzech lekcjach sam robi bąbelki i nie chce wychodzić z basenu. Polecam każdemu rodzicowi!' },
+        { name: 'Piotr', location: 'nauka od podstaw (34 lata)', text: 'Myślałem, że w moim wieku nauka pływania to już wyzwanie. Dzięki Panu Miłoszowi przełamałem lęk. Pełen profesjonalizm, wiedza z AWF i zero stresu. Każda lekcja 1-na-1 jest warta swojej ceny.' },
+        { name: 'Krzysztof', location: 'przygotowanie do zawodów', text: 'Polecam Pana Miłosza za jego oko do techniki. Analiza wideo pozwoliła mi wyeliminować błędy w kraulu, których nie widziałem przez lata. Pływam teraz lżej i znacznie szybciej.' }
       ]
     },
     faq: {
@@ -243,11 +243,11 @@ export const content = {
     },
     hero: {
       locationBadge: "Neustadt an der Weinstraße",
-      titleMain: "Schwimmen Sie sicher",
-      titleHighlight: "auf Polnisch.",
-      description: "Professioneller Schwimmunterricht für Kinder und Erwachsene. Überwinden Sie Sprachbarrieren und fühlen Sie sich im Wasser wohl unter der Anleitung eines polnischen Lehrers.",
+      titleMain: "Professionelles Schwimmtraining in Neustadt",
+      titleHighlight: "– Effizienz durch Fachkompetenz.",
+      description: "Master of Physical Education & 10 Jahre Erfahrung. Individuelles Coaching für Kinder und Erwachsene. Sportwissenschaftlicher Ansatz für schnellere Fortschritte und maximale Sicherheit.",
       viewOffer: "Angebot ansehen",
-      callNow: "Jetzt anrufen",
+      callNow: "Jetzt Beratungsgespräch buchen",
       contact: "Kontakt aufnehmen",
       meetInstructor: "Trainer kennenlernen",
       availableDates: "Verfügbare Termine",
@@ -263,10 +263,10 @@ export const content = {
       languageBadgeValue: "Polnisch & Deutsch",
       subtitle: "Ihr Schwimmlehrer",
       title: "Leidenschaft fürs Schwimmen,\nprofessioneller Ansatz.",
-      p1: "Hallo! Ich bin ein erfahrener Schwimmlehrer in Neustadt an der Weinstraße. Mein Ziel ist es, in Deutschland lebenden Polen zu helfen, Schwimmen zu lernen, ohne den Stress einer Sprachbarriere.",
-      p2: "Ich weiß, wie schwierig es sein kann, technische Anweisungen in einer Fremdsprache zu verstehen. Deshalb unterrichte ich auf Polnisch, um Komfort und Verständnis in jeder Phase des Lernens zu gewährleisten – von der Wassergewöhnung bis zum fortgeschrittenen Techniktraining.",
-      p3: "Meine Unterrichtsphilosophie konzentriert sich auf den Aufbau von Selbstvertrauen, sodass das Lernen zum Vergnügen und nicht zur Pflicht wird. Durch einen individuellen Ansatz helfe ich Schülern, die Freude am Schwimmen zu entdecken und sich im Wasser sicher zu fühlen.",
-      p4: "Ich strebe danach, dass jede Stunde nicht nur Training ist, sondern auch eine Zeit der Entspannung und des Spaßes. Durch positive Bestärkung baue ich den Glauben an die eigenen Kräfte auf, was hilft, alle Ängste im Zusammenhang mit Wasser zu überwinden.",
+      p1: "Mein Name ist Miłosz, ich bin Diplom-Sportlehrer (Master of PE) mit über 10-jähriger Erfahrung im internationalen Bildungsbereich. Mein Coaching basiert auf sportwissenschaftlichen Erkenntnissen und moderner Pädagogik.",
+      p2: "Ob Wassergewöhnung für Kinder oder Technikoptimierung für Erwachsene – ich biete Ihnen eine fundierte Analyse und ein hocheffizientes 1-zu-1 Training, das Sie schneller und sicherer an Ihr Ziel bringt. Professionalität und Sicherheit stehen bei mir an erster Stelle.",
+      p3: "",
+      p4: "",
       card1Title: "Zertifizierter Trainer",
       card1Desc: "Rettungsschwimmer- und Schwimmlehrerlizenz, anerkannt in der EU.",
       card2Title: "Kein Stress",
@@ -408,11 +408,11 @@ export const content = {
     },
     testimonials: {
       subtitle: "Bewertungen",
-      title: "Polen in der Region vertrauen uns",
+      title: "Das sagen meine Kunden",
       items: [
-        { name: 'Anna Nowak', location: 'Lebt in Neustadt', text: 'Dank Herrn Piotr hat mein Sohn keine Angst mehr vor Wasser. Der Unterricht auf Polnisch war ein Volltreffer, da der Kleine alles versteht und gerne übt. Empfehlenswert!' },
-        { name: 'Marek Kowalski', location: 'Lebt in Landau', text: 'Als Erwachsener habe ich mich geschämt, Schwimmen zu lernen, aber hier ist die Atmosphäre super. Volle Professionalität und null Stress. Endlich habe ich Kraulen gelernt!' },
-        { name: 'Katarzyna Wiśniewska', location: 'Lebt in Haßloch', text: 'Super Umgang mit Kindern. Der Lehrer hat eine Engelsgeduld. Ich freue mich sehr, dass wir einen polnischen Trainer in der Nähe gefunden haben.' }
+        { name: 'Sabine', location: 'Mutter von Elias (6 J.)', text: 'Hervorragendes pädagogisches Geschick! Miłosz hat eine unglaubliche Geduld. Als Master of PE weiß er genau, wie er Kinder motiviert. Mein Sohn hat enorme Fortschritte beim Seepferdchen-Training gemacht. Absolut empfehlenswert!' },
+        { name: 'Thomas', location: 'Technik-Optimierung', text: 'Ich habe jemanden gesucht, der die Biomechanik des Schwimmens versteht. Die Videoanalyse bei Miłosz war ein Game-Changer für meinen Kraulstil. Professionell, kompetent und zielorientiert. Top-Coach in der Pfalz!' },
+        { name: 'Annett', location: 'Angstabbau Erwachsene', text: 'Sehr einfühlsamer Unterricht. Miłosz nimmt einem die Angst und erklärt jeden Schritt wissenschaftlich fundiert. Ich fühle mich zum ersten Mal sicher im Wasser. Danke für die tolle Unterstützung!' }
       ]
     },
     faq: {

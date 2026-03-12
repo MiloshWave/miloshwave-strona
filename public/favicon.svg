@@ -1,5 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="24" fill="#0ea5e9"/>
-  <path d="M 20 40 Q 35 20 50 40 T 80 40" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 20 65 Q 35 45 50 65 T 80 65" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="url(#brandGrad)"/>
+  
+  <!-- Top Wave (The "M") -->
+  <path d="M 16 60 C 25 25, 40 25, 50 50 C 60 25, 75 25, 84 60" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bottom Wave (Echo / Water effect) -->
+  <path d="M 16 76 C 25 41, 40 41, 50 66 C 60 41, 75 41, 84 76" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
 </svg>
