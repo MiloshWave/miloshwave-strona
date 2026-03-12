@@ -28,13 +28,13 @@ const About: React.FC = () => {
             
             {/* Decorative elements */}
             <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-primary-200 rounded-2xl z-0 hidden lg:block"></div>
-            <div className="absolute top-10 -left-10 bg-white p-4 rounded-xl shadow-lg flex items-center gap-3 z-20 animate-in slide-in-from-left-4 duration-1000">
+            <div className="absolute bottom-4 right-4 md:top-10 md:-left-10 md:bottom-auto md:right-auto bg-white p-3 md:p-4 rounded-xl shadow-lg flex items-center gap-3 z-20 animate-in slide-in-from-bottom-4 md:slide-in-from-left-4 duration-1000">
               <div className="bg-primary-100 p-2 rounded-full text-primary-600">
-                <MessageCircle size={24} />
+                <MessageCircle size={20} className="md:w-6 md:h-6" />
               </div>
               <div>
-                <p className="text-xs text-slate-500 font-semibold uppercase">{t.about.languageBadgeLabel}</p>
-                <p className="font-bold text-slate-800">{t.about.languageBadgeValue}</p>
+                <p className="text-[10px] md:text-xs text-slate-500 font-semibold uppercase">{t.about.languageBadgeLabel}</p>
+                <p className="text-sm md:text-base font-bold text-slate-800">{t.about.languageBadgeValue}</p>
               </div>
             </div>
           </RevealOnScroll>
