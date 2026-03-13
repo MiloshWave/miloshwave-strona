@@ -18,7 +18,7 @@ const About: React.FC = () => {
             <div className="aspect-[4/5] md:aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl bg-slate-100 relative z-10 group">
               <EditableImage 
                 imageKey="instructorPortrait"
-                alt="Instruktor pływania" 
+                alt="Miłosz - profesjonalny instruktor pływania i magister AWF" 
                 className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
               />
               

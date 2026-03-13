@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
               <div className="w-full h-64 bg-slate-100 rounded-2xl overflow-hidden relative group">
                 <img 
                   src={IMAGES.contactMapImage}
-                  alt="Mapa lokalizacji"
+                  alt="Mapa dojazdu do basenu Stadionbad w Neustadt an der Weinstraße"
                   className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity"
                 />
                 <div className="absolute inset-0 flex items-center justify-center pointer-events-none">

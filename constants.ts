@@ -32,7 +32,8 @@ export const IMAGES = {
   instructorPortrait: "/instructor.jpg",
 
   // 👇 3. ZDJĘCIE OBOK MAPY - w sekcji kontakt
-  contactMapImage: "https://images.unsplash.com/photo-1560233026-ad2bb49ab4b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+  // Wrzuć plik o nazwie "mapa.jpg" do folderu "public"
+  contactMapImage: "/mapa.jpg"
 };
 
 export const CALENDAR_CONFIG = {
